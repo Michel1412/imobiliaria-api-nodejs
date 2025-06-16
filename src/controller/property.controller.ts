@@ -4,6 +4,8 @@ import { CreatePropertyDto, RentPropertyDto, UpdatePropertyDto } from '../domain
 import { CreatePropertyUseCase } from '../use-case/create/create-property.usecase';
 import { UpdatePropertyUseCase } from '../use-case/update/update-property.usecase';
 import { DeletePropertyUseCase } from '../use-case/delete/delete-property.usecase';
+import { PropertyRentUseCase } from 'src/use-case/update/rent-property.use-case';
+import { PropertySelledUseCase } from 'src/use-case/update/selled-property.use-case';
 
 @Controller('/properties')
 export class PropertyController {
